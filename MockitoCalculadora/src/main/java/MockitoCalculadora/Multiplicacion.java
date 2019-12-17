@@ -1,7 +1,7 @@
 package MockitoCalculadora;
 
 public class Multiplicacion {
-	private Suma suma;
+	private Suma suma = new Suma();
 	
 	void setSuma(Suma suma) {
 		this.suma = suma;
