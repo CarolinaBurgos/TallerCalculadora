@@ -8,9 +8,8 @@ public class SumaTest {
 	@Test
 	public void test() {
 		Suma s = new Suma();
-		s.suma(1,1);		
-		s.suma(4,-1);
-		
+		assertEquals("1 + 1 must be 2", 2, s.suma(1, 1));
+		assertEquals("4 + -1 must be 3", 3, s.suma(4, -1));
 	}
 
 }
